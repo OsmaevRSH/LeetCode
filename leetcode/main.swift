@@ -7,5 +7,5 @@
 
 import Foundation
 
-//print(MedianOfTwoSortedArrays().findMedianSortedArrays([1, 3], [2]))
+//print(MedianOfTwoSortedArrays().findMedianSortedArrays([1, 2], [3, 4]))
 

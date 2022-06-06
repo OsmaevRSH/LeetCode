@@ -36,13 +36,18 @@ class MedianOfTwoSortedArrays {
                 resultDict[index] = tempNums2
                 nums2Index += 1
             }
+            
+            if searchedIndexes.count == 2 {
+                if index == searchedIndexes[1] {
+                    let sum = resultDict[searchedIndexes[0]]! + resultDict[searchedIndexes[1]]!
+                    return Double(sum) / 2.0
+                }
+            } else {
+                if index == searchedIndexes[0] {
+                    return Double(resultDict[searchedIndexes[0]]!)
+                }
+            }
         }
-        
-        if searchedIndexes.count == 2 {
-            let sum = resultDict[searchedIndexes[0]]! + resultDict[searchedIndexes[1]]!
-            return Double(sum) / 2.0
-        } else {
-            return Double(resultDict[searchedIndexes[0]]!)
-        }
+        return 0.0
     }
 }
