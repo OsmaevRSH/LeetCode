@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+//print(MedianOfTwoSortedArrays().findMedianSortedArrays([1, 3], [2]))
 
