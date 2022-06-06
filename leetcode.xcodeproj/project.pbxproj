@@ -59,7 +59,9 @@
 		91B6A8B6284DCD140031990A /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				91B6A8BE284DCD280031990A /* 4. Median of Two Sorted Arrays */,
+				91B6A8C2284DD4630031990A /* Easy */,
+				91B6A8C3284DD46B0031990A /* Medium */,
+				91B6A8C1284DD45C0031990A /* Hard */,
 				91B6A8B7284DCD140031990A /* main.swift */,
 			);
 			path = leetcode;
@@ -71,6 +73,28 @@
 				91B6A8BF284DCD8C0031990A /* code.swift */,
 			);
 			path = "4. Median of Two Sorted Arrays";
+			sourceTree = "<group>";
+		};
+		91B6A8C1284DD45C0031990A /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+				91B6A8BE284DCD280031990A /* 4. Median of Two Sorted Arrays */,
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		91B6A8C2284DD4630031990A /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		91B6A8C3284DD46B0031990A /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
